@@ -1,7 +1,27 @@
 aid: descomplica
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/descomplica.png
 name: Descomplica
-description: Descomplica is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Descomplica is a Brazilian online education (edtech) company founded in 2011
+  and headquartered in Rio de Janeiro, offering a digital learning platform for
+  ENEM and vestibular exam prep, K-12 (Escolar), undergraduate and graduate
+  (Pós-graduação) degrees, public-exam (Concursos) preparation, and corporate
+  training. The platform delivers live and recorded classes, study plans,
+  tutoring, exercises, and support materials to millions of Brazilian students,
+  and is MEC-authorized. It was added to the API Evangelist network as a
+  portfolio company of 500 Global; the company operates consumer and corporate
+  learning products but does not publish a public developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/descomplica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- EdTech
+- Online Learning
+- Brazil
+- Exam Preparation
+- Higher Education
+- Corporate Training
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://descomplica.com.br
+- type: Blog
+  url: https://descomplica.com.br/blog/
+- type: Support
+  url: https://no.descomplica.com.br/knowledge
+- type: Login
+  url: https://accounts.descomplica.com.br/
+- type: PrivacyPolicy
+  url: https://descomplica.com.br/sobre/politica-de-privacidade/
+- type: TermsOfService
+  url: https://descomplica.com.br/sobre/termos-de-uso/
+- type: GitHubOrganization
+  url: https://github.com/descomplica
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
