@@ -3,12 +3,12 @@
   "feeds": [
     {
       "source": "https://descomplica.com.br",
-      "feed_url": "https://descomplica.com.br",
+      "feed_url": "https://descomplica.com.br/blog/feed/",
       "title": "",
-      "saved": 0,
-      "method": "none"
+      "saved": 50,
+      "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-08-30T22:33:40Z"
+  "post_count": 50,
+  "fetched": "2026-09-06T19:17:18Z"
 }
